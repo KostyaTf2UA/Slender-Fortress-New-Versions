@@ -42,4 +42,4 @@ Temporary Items
 .apdisk
 
 # Sourcemod Stuff
-#.exe
+*.exe
