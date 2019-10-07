@@ -1,6 +1,8 @@
-# THIS PROJECT IS DISCONTINUED THE MOD MAY OR MAY NOT WORK USE IT AT YOUR OWN RISKS
+# THIS PROJECT IS CONTINUED!, slowly but surely I am putting in work to help ensure SF2 is enjoyable to the public!
 
-Coder/Developer: [Benoist3012](http://steamcommunity.com/id/Benoist3012/)
+Most Recent Developer: [axle / blood](https://steamcommunity.com/id/axleblood/)
+
+Continued Developer: [Benoist3012](http://steamcommunity.com/id/Benoist3012/)
 
 Original coder: [KitRifty](https://github.com/KitRifty)
 
@@ -10,7 +12,7 @@ Special thanks to:
 
 # Slender Fortress New Versions
 
-Since Kit is busy with his real life, I took the developement of slender fortress, and I made new and improved versions. Slender fortress new versions.
+Kit is busy with his real life, Benoist is busy with potato.tf and what else he does since he's no longer interested in developing this publicly (As far as I know), I'm gonna take over the project and slowly make updates to it to help the public enjoy SF2 again!.
 
 ![](https://cloud.githubusercontent.com/assets/4492504/4125890/ff16b996-32e5-11e4-96b9-102fc0175adf.jpg)
 
@@ -19,4 +21,4 @@ Slender Fortress
 
 A modification of Team Fortress 2 based on the game Slender: The Eight Pages.
 
-Wiki, installation instructions, and more located here: https://github.com/Benoist3012/Slender-Fortress-New-Versions/wiki
+Wiki, installation instructions, and more located here: https://github.com/axleblood/Slender-Fortress-New-Versions/wiki
