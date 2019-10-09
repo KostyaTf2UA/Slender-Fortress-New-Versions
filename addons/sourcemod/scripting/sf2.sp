@@ -2046,6 +2046,7 @@ public Action Command_GhostMode(int iClient,int args)
 		TF2_RespawnPlayer(iClient);
 		ClientSetGhostModeState(iClient, true);
 		HandlePlayerHUD(iClient);
+		TF2_AddCondition(iClient, TFCond_StealthedUserBuffFade, -1.0);
 	
 		CPrintToChat(iClient, "{olive}%T", "SF2 Ghost Mode Enabled", iClient);
 	}
@@ -2053,6 +2054,7 @@ public Action Command_GhostMode(int iClient,int args)
 	{
 		ClientSetGhostModeState(iClient, false);
 		TF2_RespawnPlayer(iClient);
+		TF2_RemoveCondition(iClient, TFCond_StealthedUserBuffFade);
 		
 		CPrintToChat(iClient, "{olive}%T", "SF2 Ghost Mode Disabled", iClient);
 	}
