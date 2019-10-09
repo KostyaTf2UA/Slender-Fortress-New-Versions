@@ -1009,21 +1009,26 @@ public void OnPluginEnd()
 }
 public void OnLibraryAdded(const char[] name)
 {
-	
 	if(!strcmp(name, "SteamTools", false))
 	{
 		steamtools = true;
 	}
+	else
+		steamtools = false;
 	
 	if(!strcmp(name, "SteamWorks", false))
 	{
 		steamworks = true;
 	}
+	else
+		steamworks = false;
 	
 	if(!strcmp(name, "sendproxy", false))
 	{
 		sendproxymanager = true;
 	}
+	else
+		sendproxymanager = false;
 	
 }
 public void OnLibraryRemoved(const char[] name)

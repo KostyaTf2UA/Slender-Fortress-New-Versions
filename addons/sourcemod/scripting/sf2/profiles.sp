@@ -735,9 +735,9 @@ static bool LoadBossProfile(Handle kv, const char[] sProfile, char[] sLoadFailRe
 			
 			if (!StrContains(s2, "sound_"))
 			{
-				for (int i = 1;; i++)
+				for (int i1 = 1;; i1++)
 				{
-					IntToString(i, s3, sizeof(s3));
+					IntToString(i1, s3, sizeof(s3));
 					KvGetString(kv, s3, s4, sizeof(s4));
 					if (!s4[0]) break;
 					
@@ -1016,7 +1016,8 @@ public Action Timer_StartBossPackVote(Handle timer)
 
 public Action Timer_BossPackVoteLoop(Handle timer)
 {
-	if (timer != g_hBossPackVoteTimer || g_bBossPackVoteCompleted || g_bBossPackVoteStarted) return Plugin_Stop;
+	if (timer != g_hBossPackVoteTimer || g_bBossPackVoteCompleted || g_bBossPackVoteStarted) 
+		return Plugin_Stop;
 	
 	if (!NativeVotes_IsVoteInProgress())
 	{
