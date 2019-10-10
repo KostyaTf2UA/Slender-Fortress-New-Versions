@@ -36,8 +36,8 @@ bool sendproxymanager=false;
 #include <sf2>
 #pragma newdecls required
 
-#define PLUGIN_VERSION "1.5.0"
-#define PLUGIN_VERSION_DISPLAY "1.5.0"
+#define PLUGIN_VERSION "1.5.1"
+#define PLUGIN_VERSION_DISPLAY "1.5.1"
 
 #define TFTeam_Spectator 1
 #define TFTeam_Red 2
