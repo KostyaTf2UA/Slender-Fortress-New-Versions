@@ -2,6 +2,8 @@
 
 Note: The repo will always have a smx attached to it, these are experimental, and only builds in releases should you expect no issues when using it on your server.
 
+[AlliedModders Thread](https://forums.alliedmods.net/showthread.php?p=2669439)
+
 Most Recent Developer: [axle / blood](https://steamcommunity.com/id/axleblood/)
 
 Continued Developer: [Benoist3012](http://steamcommunity.com/id/Benoist3012/)
