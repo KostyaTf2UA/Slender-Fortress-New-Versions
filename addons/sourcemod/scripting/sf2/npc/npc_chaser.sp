@@ -2607,6 +2607,7 @@ public MRESReturn GetGravity(Address pThis, Handle hReturn)
 {
 	//Force the gravity. 
 	DHookSetReturn(hReturn, g_flGravity);
+
 #if defined DEBUG
 	ILocomotion BossLocomotion = view_as<ILocomotion>(pThis);
 	INextBot BossNextBot = view_as<INextBot>(BossLocomotion.GetBot());
@@ -2614,6 +2615,7 @@ public MRESReturn GetGravity(Address pThis, Handle hReturn)
 	if (iBossIndex != -1)
 		SendDebugMessageToPlayers(DEBUG_NEXTBOT, 0, "Nextbot (%i) GetGravity:%0.0f", iBossIndex, g_flGravity);
 #endif
+
 	return MRES_Supercede;
 }
 public MRESReturn GetAcceleration(Address pThis, Handle hReturn)

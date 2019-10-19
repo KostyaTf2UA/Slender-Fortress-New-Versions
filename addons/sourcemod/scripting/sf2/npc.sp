@@ -1940,9 +1940,9 @@ public Action Timer_SlenderTeleportThink(Handle timer, any iBossIndex)
 				// We don't have any good targets. Remove myself for now.
 				if (SlenderCanRemove(iBossIndex)) RemoveSlender(iBossIndex);
 				
-#if defined DEBUG
+				#if defined DEBUG
 				SendDebugMessageToPlayers(DEBUG_BOSS_TELEPORTATION, 0, "Teleport for boss %d: no good target, removing...", iBossIndex);
-#endif
+				#endif
 			}
 			else
 			{

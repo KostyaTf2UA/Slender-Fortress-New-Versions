@@ -30,7 +30,7 @@ bool steamtools=false;
 bool steamworks=false;
 bool sendproxymanager=false;
 
-#define DEBUG
+//#define DEBUG
 #define SF2
 
 #include <sf2>
@@ -53,7 +53,7 @@ bool sendproxymanager=false;
 public Plugin myinfo = 
 {
     name = "Slender Fortress",
-    author	= "KitRifty, Benoist3012",
+    author	= "KitRifty, Benoist3012, axleblood",
     description	= "Based on the game Slender: The Eight Pages.",
     version = PLUGIN_VERSION,
     url = "http://steamcommunity.com/groups/SlenderFortress"
@@ -627,9 +627,7 @@ Handle g_hTimerFail;
 
 ConVar g_cvLookAheadDist;
 
-#if defined DEBUG
 #include "sf2/debug.sp"
-#endif
 #include "sf2/nextbot/nextbot.sp"
 #include "sf2/stocks.sp"
 #include "sf2/baseanimating.sp"
